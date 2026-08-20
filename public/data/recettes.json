@@ -1,0 +1,587 @@
+[
+  {
+    "id":1,
+    "nom": "Spaghetti Carbonara",
+    "temps_preparation": "15 minutes",
+    "temps_cuisson": "10 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {
+        "nom": "Spaghetti",
+        "quantite": 400,
+        "unite": "g",
+        "illustration": "🍝"
+      },
+      {
+        "nom": "Lardons fumés",
+        "quantite": 200,
+        "unite": "g",
+        "illustration": "🥓"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": 4,
+        "unite": "pièces",
+        "illustration": "🥚"
+      },
+      {
+        "nom": "Parmesan râpé",
+        "quantite": 100,
+        "unite": "g",
+        "illustration": "🧀"
+      },
+      {
+        "nom": "Poivre noir",
+        "quantite": 1,
+        "unite": "c. à café",
+        "illustration": "🌶️"
+      }
+    ],
+    "etapes": [
+      "Faire cuire les spaghetti dans de l'eau bouillante salée.",
+      "Dans une poêle, faire revenir les lardons jusqu'à ce qu'ils soient dorés.",
+      "Battre les œufs avec le parmesan râpé et le poivre.",
+      "Égoutter les pâtes et les mélanger avec les lardons hors du feu.",
+      "Ajouter le mélange œufs-parmesan rapidement pour que les œufs ne coagulent pas.",
+      "Servir immédiatement."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Spaghetti_alla_Carbonara_%28Madrid%29.JPG/1280px-Spaghetti_alla_Carbonara_%28Madrid%29.JPG"
+  },
+  { 
+    "id":2,
+    "nom": "Quiche Lorraine",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "35 minutes",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {
+        "nom": "Pâte brisée",
+        "quantite": 1,
+        "unite": "pièce",
+        "illustration": "🥧"
+      },
+      {
+        "nom": "Lardons",
+        "quantite": 200,
+        "unite": "g",
+        "illustration": "🥓"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": 3,
+        "unite": "pièces",
+        "illustration": "🥚"
+      },
+      {
+        "nom": "Crème fraîche",
+        "quantite": 20,
+        "unite": "cl",
+        "illustration": "🥛"
+      },
+      {
+        "nom": "Lait",
+        "quantite": 10,
+        "unite": "cl",
+        "illustration": "🥛"
+      },
+      {
+        "nom": "Muscade",
+        "quantite": 1,
+        "unite": "pincée",
+        "illustration": "🧂"
+      }
+    ],
+    "etapes": [
+      "Préchauffer le four à 180°C.",
+      "Faire revenir les lardons dans une poêle.",
+      "Étaler la pâte dans un moule à tarte.",
+      "Mélanger les œufs, la crème, le lait, la muscade.",
+      "Répartir les lardons sur la pâte et verser l'appareil par-dessus.",
+      "Enfourner pour 35 minutes."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/54._Quiche_lorraine.jpg/1280px-54._Quiche_lorraine.jpg"
+  },
+  {
+    "id":3,
+    "nom": "Poulet au curry et lait de coco",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "25 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {
+        "nom": "Blancs de poulet",
+        "quantite": 600,
+        "unite": "g",
+        "illustration": "🍗"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": "pièce",
+        "illustration": "🧅"
+      },
+      {
+        "nom": "Lait de coco",
+        "quantite": 40,
+        "unite": "cl",
+        "illustration": "🥥"
+      },
+      {
+        "nom": "Curry en poudre",
+        "quantite": 2,
+        "unite": "c. à soupe",
+        "illustration": "🍛"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 1,
+        "unite": "c. à soupe",
+        "illustration": "🫒"
+      }
+    ],
+    "etapes": [
+      "Émincer l'oignon et couper le poulet en morceaux.",
+      "Faire revenir l'oignon avec l'huile dans une poêle.",
+      "Ajouter le poulet et le faire dorer.",
+      "Saupoudrer de curry, bien mélanger.",
+      "Verser le lait de coco et laisser mijoter 20 minutes.",
+      "Servir avec du riz."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Poulet_au_curry.jpg"
+  },
+  {
+    "id":4,
+    "nom": "Salade César",
+    "temps_preparation": "15 minutes",
+    "temps_cuisson": "10 minutes",
+    "nombre_personnes": 2,
+    "ingredients": [
+      {
+        "nom": "Salade romaine",
+        "quantite": 1,
+        "unite": "pièce",
+        "illustration": "🥬"
+      },
+      {
+        "nom": "Blancs de poulet",
+        "quantite": 300,
+        "unite": "g",
+        "illustration": "🍗"
+      },
+      {
+        "nom": "Parmesan",
+        "quantite": 50,
+        "unite": "g",
+        "illustration": "🧀"
+      },
+      {
+        "nom": "Croûtons",
+        "quantite": 50,
+        "unite": "g",
+        "illustration": "🍞"
+      },
+      {
+        "nom": "Sauce César",
+        "quantite": 4,
+        "unite": "c. à soupe",
+        "illustration": "🥗"
+      }
+    ],
+    "etapes": [
+      "Faire griller les blancs de poulet et les couper en lamelles.",
+      "Laver et couper la salade.",
+      "Disposer salade, poulet, croûtons et copeaux de parmesan.",
+      "Verser la sauce César et servir frais."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ceasar_salad_%286814864465%29.jpg/1280px-Ceasar_salad_%286814864465%29.jpg"
+  },
+  {
+    "id":5,
+    "nom": "Crêpes sucrées",
+    "temps_preparation": "10 minutes",
+    "temps_cuisson": "20 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "quantite": 250,
+        "unite": "g",
+        "illustration": "🌾"
+      },
+      {
+        "nom": "Lait",
+        "quantite": 50,
+        "unite": "cl",
+        "illustration": "🥛"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": 3,
+        "unite": "pièces",
+        "illustration": "🥚"
+      },
+      {
+        "nom": "Beurre fondu",
+        "quantite": 50,
+        "unite": "g",
+        "illustration": "🧈"
+      },
+      {
+        "nom": "Sucre vanillé",
+        "quantite": 1,
+        "unite": "sachet",
+        "illustration": "🍬"
+      }
+    ],
+    "etapes": [
+      "Mélanger tous les ingrédients dans un saladier.",
+      "Laisser reposer la pâte 30 minutes.",
+      "Faire cuire les crêpes dans une poêle chaude légèrement beurrée.",
+      "Servir avec du sucre, du chocolat ou de la confiture."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Aumoniere.jpg"
+  },
+  {
+    "id":6,
+    "nom": "Lasagnes à la bolognaise",
+    "temps_preparation": "30 minutes",
+    "temps_cuisson": "45 minutes",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Feuilles de lasagnes", "quantite": 12, "unite": "pièces", "illustration": "🍝"},
+      {"nom": "Viande hachée", "quantite": 500, "unite": "g", "illustration": "🥩"},
+      {"nom": "Tomates concassées", "quantite": 400, "unite": "g", "illustration": "🍅"},
+      {"nom": "Oignon", "quantite": 1, "unite": "pièce", "illustration": "🧅"},
+      {"nom": "Béchamel", "quantite": 50, "unite": "cl", "illustration": "🥛"},
+      {"nom": "Fromage râpé", "quantite": 100, "unite": "g", "illustration": "🧀"}
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé avec la viande hachée.",
+      "Ajouter les tomates concassées et laisser mijoter.",
+      "Alterner dans un plat : béchamel, feuilles de lasagnes, sauce bolognaise.",
+      "Terminer par du fromage râpé.",
+      "Cuire au four 45 minutes à 180°C."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/960px-Lasagne_-_stonesoup.jpg"
+  },
+  {
+    "id":7,
+    "nom": "Couscous royal",
+    "temps_preparation": "40 minutes",
+    "temps_cuisson": "1 heure",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Semoule de couscous", "quantite": 500, "unite": "g", "illustration": "🌾"},
+      {"nom": "Agneau", "quantite": 500, "unite": "g", "illustration": "🥩"},
+      {"nom": "Poulet", "quantite": 2, "unite": "cuisses", "illustration": "🍗"},
+      {"nom": "Merguez", "quantite": 6, "unite": "pièces", "illustration": "🌭"},
+      {"nom": "Carottes", "quantite": 4, "unite": "pièces", "illustration": "🥕"},
+      {"nom": "Navets", "quantite": 3, "unite": "pièces", "illustration": "🥬"},
+      {"nom": "Pois chiches", "quantite": 200, "unite": "g", "illustration": "🫘"},
+      {"nom": "Ras el hanout", "quantite": 1, "unite": "c. à soupe", "illustration": "🧂"}
+    ],
+    "etapes": [
+      "Faire revenir les viandes dans une grande marmite.",
+      "Ajouter les légumes, les pois chiches et les épices.",
+      "Couvrir d'eau et laisser mijoter 1 heure.",
+      "Cuire la semoule selon les indications.",
+      "Servir les viandes, légumes et bouillon sur la semoule."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/MoroccanCouscous.jpg/1280px-MoroccanCouscous.jpg"
+  },
+  {
+    "id":8,
+    "nom": "Tiramisu",
+    "temps_preparation": "30 minutes",
+    "temps_cuisson": "0 minute",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Mascarpone", "quantite": 250, "unite": "g", "illustration": "🧀"},
+      {"nom": "Oeufs", "quantite": 3, "unite": "pièces", "illustration": "🥚"},
+      {"nom": "Sucre", "quantite": 100, "unite": "g", "illustration": "🍬"},
+      {"nom": "Biscuits à la cuillère", "quantite": 24, "unite": "pièces", "illustration": "🍪"},
+      {"nom": "Café fort", "quantite": 20, "unite": "cl", "illustration": "☕"},
+      {"nom": "Cacao en poudre", "quantite": 2, "unite": "c. à soupe", "illustration": "🍫"}
+    ],
+    "etapes": [
+      "Séparer les blancs des jaunes.",
+      "Fouetter les jaunes avec le sucre puis incorporer le mascarpone.",
+      "Monter les blancs en neige et les incorporer délicatement.",
+      "Tremper les biscuits dans le café et les disposer dans un plat.",
+      "Alterner une couche de crème et une couche de biscuits.",
+      "Saupoudrer de cacao et réfrigérer au moins 4 heures."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/1280px-Tiramisu_-_Raffaele_Diomede.jpg"
+  },
+  {
+    "id":9,
+    "nom": "Soupe à l'oignon",
+    "temps_preparation": "15 minutes",
+    "temps_cuisson": "40 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {"nom": "Oignons", "quantite": 500, "unite": "g", "illustration": "🧅"},
+      {"nom": "Bouillon de bœuf", "quantite": 1, "unite": "l", "illustration": "🥣"},
+      {"nom": "Pain", "quantite": 8, "unite": "tranches", "illustration": "🍞"},
+      {"nom": "Fromage râpé", "quantite": 100, "unite": "g", "illustration": "🧀"},
+      {"nom": "Beurre", "quantite": 30, "unite": "g", "illustration": "🧈"}
+    ],
+    "etapes": [
+      "Faire revenir les oignons émincés dans le beurre jusqu'à coloration.",
+      "Ajouter le bouillon et laisser mijoter 30 minutes.",
+      "Verser la soupe dans des bols, ajouter les tranches de pain et le fromage.",
+      "Gratiner au four quelques minutes avant de servir."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Soupe_%C3%A0_l%27oignon.jpg/1280px-Soupe_%C3%A0_l%27oignon.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":10,
+    "nom": "Ratatouille",
+    "temps_preparation": "25 minutes",
+    "temps_cuisson": "40 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {"nom": "Aubergines", "quantite": 2, "unite": "pièces", "illustration": "🍆"},
+      {"nom": "Courgettes", "quantite": 2, "unite": "pièces", "illustration": "🥒"},
+      {"nom": "Poivrons", "quantite": 2, "unite": "pièces", "illustration": "🫑"},
+      {"nom": "Tomates", "quantite": 4, "unite": "pièces", "illustration": "🍅"},
+      {"nom": "Oignons", "quantite": 2, "unite": "pièces", "illustration": "🧅"},
+      {"nom": "Huile d'olive", "quantite": 3, "unite": "c. à soupe", "illustration": "🫒"}
+    ],
+    "etapes": [
+      "Couper tous les légumes en dés.",
+      "Faire revenir les oignons dans l'huile, puis ajouter les autres légumes.",
+      "Saler, poivrer, couvrir et laisser mijoter 40 minutes à feu doux.",
+      "Servir chaud ou froid selon les goûts."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ratatouille_001.jpg/1280px-Ratatouille_001.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":11,
+    "nom": "Salade niçoise",
+    "temps_preparation": "25 minutes",
+    "temps_cuisson": "10 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {"nom": "Tomates", "quantite": 3, "unite": "pièces", "illustration": "🍅"},
+      {"nom": "Oeufs", "quantite": 4, "unite": "pièces", "illustration": "🥚"},
+      {"nom": "Haricots verts", "quantite": 200, "unite": "g", "illustration": "🌿"},
+      {"nom": "Thon", "quantite": 150, "unite": "g", "illustration": "🐟"},
+      {"nom": "Olives noires", "quantite": 50, "unite": "g", "illustration": "🫒"},
+      {"nom": "Pommes de terre", "quantite": 300, "unite": "g", "illustration": "🥔"}
+    ],
+    "etapes": [
+      "Cuire les œufs durs et les pommes de terre.",
+      "Cuire les haricots verts 10 minutes à l’eau bouillante.",
+      "Couper les tomates, pommes de terre et œufs.",
+      "Mélanger tous les ingrédients dans un grand plat.",
+      "Assaisonner selon votre goût avec huile, vinaigre, sel et poivre."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Salade_ni%C3%A7oise_001.jpg/1280px-Salade_ni%C3%A7oise_001.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":12,
+    "nom": "Boeuf bourguignon",
+    "temps_preparation": "30 minutes",
+    "temps_cuisson": "3 heures",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Boeuf à braiser", "quantite": 1000, "unite": "g", "illustration": "🥩"},
+      {"nom": "Vin rouge", "quantite": 75, "unite": "cl", "illustration": "🍷"},
+      {"nom": "Carottes", "quantite": 3, "unite": "pièces", "illustration": "🥕"},
+      {"nom": "Oignons", "quantite": 2, "unite": "pièces", "illustration": "🧅"},
+      {"nom": "Lardons", "quantite": 150, "unite": "g", "illustration": "🥓"},
+      {"nom": "Champignons de Paris", "quantite": 200, "unite": "g", "illustration": "🍄"}
+    ],
+    "etapes": [
+      "Faire revenir les morceaux de boeuf dans une cocotte.",
+      "Ajouter les lardons, les oignons, les carottes et les champignons.",
+      "Couvrir avec le vin rouge et porter à ébullition.",
+      "Réduire le feu et laisser mijoter 3 heures.",
+      "Servir avec des pommes de terre ou des pâtes."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Boeuf_Bourguignon_2022.jpg/1280px-Boeuf_Bourguignon_2022.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":13,
+    "nom": "Tarte aux pommes",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "35 minutes",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Pâte brisée", "quantite": 1, "unite": "rouleau", "illustration": "🥧"},
+      {"nom": "Pommes", "quantite": 4, "unite": "pièces", "illustration": "🍏"},
+      {"nom": "Sucre", "quantite": 50, "unite": "g", "illustration": "🍬"},
+      {"nom": "Beurre", "quantite": 30, "unite": "g", "illustration": "🧈"},
+      {"nom": "Compote de pommes", "quantite": 200, "unite": "g", "illustration": "🍎"}
+    ],
+    "etapes": [
+      "Préchauffer le four à 180°C.",
+      "Étaler la pâte dans un moule à tarte.",
+      "Répartir la compote de pommes sur le fond.",
+      "Disposer les tranches de pommes en rosace.",
+      "Parsemer de sucre et de petits morceaux de beurre.",
+      "Cuire 35 minutes à 180°C."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tarte_aux_pommes_002.JPG/1280px-Tarte_aux_pommes_002.JPG?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":14,
+    "nom": "Galette bretonne",
+    "temps_preparation": "15 minutes",
+    "temps_cuisson": "10 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      {"nom": "Farine de sarrasin", "quantite": 250, "unite": "g", "illustration": "🌾"},
+      {"nom": "Eau", "quantite": 500, "unite": "ml", "illustration": "💧"},
+      {"nom": "Sel", "quantite": 1, "unite": "c. à café", "illustration": "🧂"},
+      {"nom": "Jambon", "quantite": 4, "unite": "tranches", "illustration": "🍖"},
+      {"nom": "Oeufs", "quantite": 4, "unite": "pièces", "illustration": "🥚"},
+      {"nom": "Fromage râpé", "quantite": 100, "unite": "g", "illustration": "🧀"}
+    ],
+    "etapes": [
+      "Mélanger la farine, l’eau et le sel pour former une pâte fluide.",
+      "Faire reposer 1h si possible.",
+      "Cuire la galette dans une poêle chaude.",
+      "Ajouter jambon, fromage et œuf au centre.",
+      "Replier les bords et servir bien chaud."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Galette_Auray.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id":15,
+    "nom": "Gratin dauphinois",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "1 heure",
+    "nombre_personnes": 6,
+    "ingredients": [
+      {"nom": "Pommes de terre", "quantite": 1, "unite": "kg", "illustration": "🥔"},
+      {"nom": "Crème fraîche", "quantite": 50, "unite": "cl", "illustration": "🥛"},
+      {"nom": "Lait", "quantite": 25, "unite": "cl", "illustration": "🥛"},
+      {"nom": "Ail", "quantite": 1, "unite": "gousse", "illustration": "🧄"},
+      {"nom": "Beurre", "quantite": 30, "unite": "g", "illustration": "🧈"},
+      {"nom": "Noix de muscade", "quantite": 1, "unite": "pincée", "illustration": "🌰"}
+    ],
+    "etapes": [
+      "Préchauffer le four à 180°C.",
+      "Frotter un plat à gratin avec l’ail.",
+      "Couper les pommes de terre en fines rondelles.",
+      "Mélanger crème, lait, sel, poivre et muscade.",
+      "Disposer les rondelles dans le plat, verser le mélange.",
+      "Cuire 1h jusqu’à ce que le dessus soit bien doré."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gratin_dauphinois.jpg/1280px-Gratin_dauphinois.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":16,
+    "nom": "Shakshuka",
+    "temps_preparation": "15 minutes",
+    "temps_cuisson": "20 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      { "nom": "Tomates concassées", "quantite": 400, "unite": "g", "illustration": "🍅" },
+      { "nom": "Oignons", "quantite": 1, "unite": "pièce", "illustration": "🧅" },
+      { "nom": "Œufs", "quantite": 4, "unite": "pièces", "illustration": "🥚" },
+      { "nom": "Poivrons rouges", "quantite": 1, "unite": "pièce", "illustration": "🫑" },
+      { "nom": "Ail", "quantite": 2, "unite": "gousses", "illustration": "🧄" }
+    ],
+    "etapes": [
+      "Faire revenir les oignons, l’ail et le poivron dans une poêle avec un peu d’huile.",
+      "Ajouter les tomates concassées, sel, poivre et épices (paprika, cumin).",
+      "Laisser mijoter 10 minutes.",
+      "Casser les œufs sur la sauce, couvrir et cuire jusqu’à ce que les œufs soient pris.",
+      "Servir chaud avec du pain."
+    ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Shakshuka_by_Calliopejen1.jpg/1280px-Shakshuka_by_Calliopejen1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":17,
+    "nom": "Bibimbap",
+    "temps_preparation": "30 minutes",
+    "temps_cuisson": "20 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      { "nom": "Riz blanc cuit", "quantite": 400, "unite": "g", "illustration": "🍚" },
+      { "nom": "Épinards", "quantite": 200, "unite": "g", "illustration": "🥬" },
+      { "nom": "Carottes", "quantite": 2, "unite": "pièces", "illustration": "🥕" },
+      { "nom": "Boeuf haché", "quantite": 200, "unite": "g", "illustration": "🥩" },
+      { "nom": "Œufs", "quantite": 4, "unite": "pièces", "illustration": "🥚" }
+    ],
+    "etapes": [
+      "Faire sauter séparément les épinards, carottes râpées et bœuf haché assaisonné.",
+      "Placer le riz dans des bols, ajouter les légumes et le bœuf sur le dessus.",
+      "Faire frire un œuf par bol et le déposer dessus.",
+      "Ajouter de la sauce gochujang ou sauce soja selon goût.",
+      "Mélanger avant de déguster."
+    ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Korean.food-Bibimbap-02.jpg/1280px-Korean.food-Bibimbap-02.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":18,
+    "nom": "Moussaka",
+    "temps_preparation": "40 minutes",
+    "temps_cuisson": "45 minutes",
+    "nombre_personnes": 6,
+    "ingredients": [
+      { "nom": "Aubergines", "quantite": 3, "unite": "pièces", "illustration": "🍆" },
+      { "nom": "Tomates concassées", "quantite": 500, "unite": "g", "illustration": "🍅" },
+      { "nom": "Oignons", "quantite": 1, "unite": "pièce", "illustration": "🧅" },
+      { "nom": "Béchamel", "quantite": 400, "unite": "ml", "illustration": "🥛" },
+      { "nom": "Boeuf haché", "quantite": 500, "unite": "g", "illustration": "🥩" }
+    ],
+    "etapes": [
+      "Couper les aubergines en tranches, les saler et les faire dégorger 30 min.",
+      "Rincer et cuire les lentilles corail.",
+      "Faire revenir oignons le boeuf haché et tomates, ajouter sel, poivre.",
+      "Préchauffer le four à 180 °C.",
+      "Dans un plat, alterner couches d’aubergines, sauce tomate-lentilles, et béchamel.",
+      "Cuire 45 minutes jusqu’à gratiné."
+    ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/MussakasMeMelitsanesKePatates01.JPG/1280px-MussakasMeMelitsanesKePatates01.JPG?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":19,
+    "nom": "Pad Thaï",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "15 minutes",
+    "nombre_personnes": 4,
+    "ingredients": [
+      { "nom": "Nouilles de riz", "quantite": 200, "unite": "g", "illustration": "🍜" },
+      { "nom": "Crevettes", "quantite": 200, "unite": "g", "illustration": "🦐" },
+      { "nom": "Tofu ferme", "quantite": 150, "unite": "g", "illustration": "🍢" },
+      { "nom": "Cacahuètes concassées", "quantite": 50, "unite": "g", "illustration": "🥜" },
+      { "nom": "Germes de soja", "quantite": 100, "unite": "g", "illustration": "🌱" }
+    ],
+    "etapes": [
+      "Cuire les nouilles selon instructions et réserver.",
+      "Faire sauter crevettes et tofu dans un wok.",
+      "Ajouter les nouilles, germes de soja et sauce tamarin ou soja.",
+      "Mélanger bien, parsemer de cacahuètes concassées.",
+      "Servir chaud avec un quartier de citron."
+    ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/960px-Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id":20,
+    "nom": "Chili con carne",
+    "temps_preparation": "20 minutes",
+    "temps_cuisson": "40 minutes",
+    "nombre_personnes": 5,
+    "ingredients": [
+      { "nom": "Haricots rouges", "quantite": 400, "unite": "g", "illustration": "🫘" },
+      { "nom": "Tomates concassées", "quantite": 500, "unite": "g", "illustration": "🍅" },
+      { "nom": "Poivrons rouges", "quantite": 2, "unite": "pièces", "illustration": "🫑" },
+      { "nom": "Maïs", "quantite": 200, "unite": "g", "illustration": "🌽" },
+      { "nom": "Épices chili", "quantite": 1, "unite": "cuillère à soupe", "illustration": "🌶️" },
+      { "nom": "Boeuf haché", "quantite": 500, "unite": "g", "illustration": "🥩" }
+    ],
+    "etapes": [
+      "Faire revenir la viande hachée et les poivrons coupés en dés dans une casserole.",
+      "Ajouter les tomates, haricots rouges, maïs et épices.",
+      "Laisser mijoter 30 minutes à feu doux.",
+      "Rectifier l’assaisonnement et servir avec du riz."
+    ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bowl_of_chili.jpg/1280px-Bowl_of_chili.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+
+]
