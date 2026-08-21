@@ -33,9 +33,24 @@ export default function RecettesProvider({children}){
         }
     }
 
+    function supprimerIngredient(ingredientASupp){
+        //supprimer un ingredient de la liste ingredientFrigo
+        //param : l'ingredient à supprimmer
+
+        //Je crée un nouveau tableau vide, je parcours la liste des ingredients et ajoute dans le nouveau tableau,tout ingredient différent de celui à supp
+        let nouveauTab =[]
+        ingredientsFrigo.forEach((ingredient)=>{
+            if(ingredient !== ingredientASupp){
+                nouveauTab.push(ingredient);
+            }
+        });
+        //je set ingredientsFrigo avec les données du nouveauTab
+        setIngredientsFrigo(nouveauTab);
+    }
+
 
     return(
-        <RecettesContext.Provider value={{recettes,ingredientsFrigo, ajouterIngredient}}>
+        <RecettesContext.Provider value={{recettes,ingredientsFrigo, ajouterIngredient, supprimerIngredient}}>
             {children}
         </RecettesContext.Provider>
     )
