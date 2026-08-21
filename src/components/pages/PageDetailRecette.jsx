@@ -2,7 +2,7 @@ import NavBottom from "../NavBottom";
 
 export default function PageDetailRecette(){
     //Composant retournant les détails de la recette sélectionnée et le bouton pour l'ajouter aux favoris
-    //Utilise les composants : Button et NavBottom
+    //Utilise les composants : CardRecette et NavBottom
 
     return(
         <div className="detail-page">
