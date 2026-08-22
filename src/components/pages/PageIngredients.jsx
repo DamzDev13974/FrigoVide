@@ -4,7 +4,7 @@ import NavBottom from "../NavBottom";
 
 export default function PageIngredients(){
     //Composant retournant la page permettant de rajouter/enlever des ingrédients à la liste de recherche filtrée pour les recettes 
-    //Utilise les composants : FormIngredients, ListeIngredients,Message et NavBottom
+   
     
 
     return(

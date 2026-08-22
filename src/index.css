@@ -1,7 +1,77 @@
+/* ===========Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+    width: 400px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ========= Test msg ======== */
+
 .echec-msg{
     color: red;
 }
 
 .ok-msg{
     color: green;
+}
+
+.info-msg{
+    color:blue;
+}
+
+/* ========== Card =========== */
+
+.card-recette {
+  width: 100%;
+  max-width: 160px;
+  background-color: #fff;
+  border: 3px solid #111;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-recette a {
+  display: block;
+  color: #111;
+}
+
+.card-recette img {
+  display: block;
+  height: 125px;
+  object-fit: cover;
+}
+
+.card-title {
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.1;
+  font-weight: 700;
 }

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useRecettes } from "./contexts/RecettesContext";
 import Message from "./Message";
 
@@ -20,17 +20,35 @@ export default function FormIngredients(){
         //paramétre : l'evenement déclenché par l'écouteur
         e.preventDefault()
         //Verif si ingredient déjà ajouté
-        if(ingredientsFrigo.includes(ingredient)){
-            setMsg("l'ingredient :"+ ingredient+" est déjà dans la liste")
+        if(ingredientsFrigo.includes(ingredient.trim())){
+            setMsg("l'ingredient : "+ ingredient +" est déjà dans la liste")
             setTypemsg("echec");
             return;
         }
-        ajouterIngredient(ingredient);
-        setMsg("L'ingredient :" +ingredient+ " a été ajouté à la liste")
+        //verif si ingredient saisi est vide
+        if(ingredient.trim === ""){
+            setMsg("pas d'ingredient saisi")
+            setTypemsg("echec");
+            return;
+        }
+        ajouterIngredient(ingredient.trim());
+        setMsg("L'ingredient : " +ingredient + " a été ajouté à la liste")
         setTypemsg("ok");
         setIngredient("");
-        
     }
+
+    //useEffect pour que le timer se déclenche lorsque le message change 
+    useEffect(() => {
+        if (msg) {
+            const timer = setTimeout(() => {
+                setMsg("");
+            }, 3000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [msg]);//dépendence qui déclenche l'effect
+
+
     return(
         <div className="add-ingredients">
             {msg && (
